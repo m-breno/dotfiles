@@ -4,6 +4,7 @@ my arch bspwm dotfiles
 ## TODO:
 - [x] migrate from `alacritty` to `kitty`
 - [x] fix rofi cancel keybinding
+- [x] migrate from ncmpcpp to miniplayer
 - [x] add more themes:
   - [x] gruvbox-material
     - [x] dark
@@ -12,4 +13,4 @@ my arch bspwm dotfiles
     - [x] dark
     - [ ] light
   - [ ] automatic switch script
-- [ ] migrate from ncmpcpp to miniplayer
+- [ ] fix zsh `esc` strange behavior
