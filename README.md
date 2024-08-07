@@ -14,3 +14,4 @@ my arch bspwm dotfiles
     - [ ] light
   - [ ] automatic switch script
 - [ ] fix zsh `esc` strange behavior
+- [ ] fix nvim colorscheme changer
