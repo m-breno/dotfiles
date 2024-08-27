@@ -1,6 +1,7 @@
+zsh/plugins/*
 zsh/.zcompdump
 kitty/kitty.conf.bak
-bspwm/themes/current
+bspwm/themes/*/ready
 bspwm/themes/*/rofi/shared/fonts.rasi
 kitty/current-theme.conf
 *.bkp
