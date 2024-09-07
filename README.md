@@ -5,18 +5,18 @@ my arch(craft) bspwm dotfiles
 ## TODO
 
 - [x] add more themes:
-  - [ ] gruvbox-material
+  - [x] gruvbox-material
     - [x] dark
-    - [ ] light
-  - [ ] catppuccin
+    - [x] light
+  - [x] catppuccin
     - [x] dark
-    - [ ] light
+    - [x] light
   - [ ] automatic switch script
-- [ ] stop using archcraft-base scripts
+- [ ] stop using archcraft-based scripts
   - [x] themes
-  - [ ] bspwmrc
+  - [x] bspwmrc
   - [ ] sxhkd
-  - [ ] general scripts (terminal... etc.)
+  - [x] general scripts (terminal... etc.)
   - [ ] ~rofi (not planned)~
-- [ ] fix zsh `esc` strange behavior
-- [ ] neovim auto switch theme
+- [x] fix zsh `esc` strange behavior
+- [ ] / neovim auto switch theme

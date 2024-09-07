@@ -41,13 +41,13 @@ I highly recommend you to install at least the optional dependencies, unless you
 Dependencies:
 
 ```bash
-yay -S --needed bluez bluez-tuils dunst feh kitty neovim picom python-pynvim rofi vlc wget xclip xcolor xfce4-power-manager zsh
+yay -S --needed bluez bluez-tuils dunst feh kitty neovim picom python-pynvim rofi-lbonn-wayland-git udiskie vlc wget xclip xcolor xfce4-power-manager zsh
 ```
 
 Optional:
 
 ```bash
-yay -S --needed bat catppuccin-gtk-theme-latte catppuccin-gtk-theme-mocha eza firefox gnome-themes-extra gruvbox-material-gtk-theme-git gvfs inter-font lxappearance materia-gtk-theme nasa-wallpaper nerd-fonts-inter noto-fonts noto-fonts-emoji papirus-icon-theme pavucontrol thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler ttf-fira-code ttf-fira-code-nerd ttf-jetbrains-mono-nerd viewnior xarchiver zsh
+yay -S --needed bat catppuccin-gtk-theme-latte catppuccin-gtk-theme-mocha eza firefox gnome-themes-extra gruvbox-material-gtk-theme-git gruvbox-material-icon-theme-git gvfs inter-font lxappearance materia-gtk-theme nasa-wallpaper nerd-fonts-inter noto-fonts noto-fonts-emoji papirus-icon-theme pavucontrol thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler ttf-fira-code ttf-firacode-nerd ttf-jetbrains-mono-nerd viewnior xarchiver zsh
 ```
 
 Fonts have duplicates bc of rofi (idk why)
