@@ -47,7 +47,7 @@ yay -S --needed bluez bluez-tuils dunst feh kitty neovim picom python-pynvim rof
 Optional:
 
 ```bash
-yay -S --needed bat catppuccin-gtk-theme-latte catppuccin-gtk-theme-mocha eza firefox gnome-themes-extra gruvbox-material-gtk-theme-git gruvbox-material-icon-theme-git gvfs inter-font lxappearance materia-gtk-theme nasa-wallpaper nerd-fonts-inter noto-fonts noto-fonts-emoji papirus-icon-theme pavucontrol thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler ttf-fira-code ttf-firacode-nerd ttf-jetbrains-mono-nerd viewnior xarchiver zsh
+yay -S --needed bat betterlockscreen catppuccin-gtk-theme-latte catppuccin-gtk-theme-mocha eza firefox gnome-themes-extra gruvbox-material-gtk-theme-git gruvbox-material-icon-theme-git gvfs inter-font lxappearance materia-gtk-theme nasa-wallpaper nerd-fonts-inter noto-fonts noto-fonts-emoji papirus-icon-theme pavucontrol thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler ttf-fira-code ttf-firacode-nerd ttf-jetbrains-mono-nerd viewnior xarchiver zsh
 ```
 
 Fonts have duplicates bc of rofi (idk why)
@@ -58,7 +58,7 @@ For my setup/workflow:
 yay -S --needed man-db ncdu obsidian spicetify-cli spotdl spotify spotifywm-git trash-cli unrar unzip vlc wget xdg-ninja xdg-user-dirs xdg-user-dirs-gtk zip
 ```
 
-## Create xdg-dirs (if post-install)
+## Create xdg-dirs (if fresh Arch installation)
 
 ```bash
 LC_ALL=C.UTF-8 xdg-user-dirs-update --force
