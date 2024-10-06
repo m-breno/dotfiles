@@ -1,17 +1,13 @@
 return {
+
   {
-    "sainnhe/gruvbox-material",
-    opts = {
-      gruvbox_material_enable_italic = true,
-      gruvbox_material_background = "hard",
-      gruvbox_material_enable_bold = true,
-    },
+    "dylanaraps/wal.vim",
   },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox-material",
+      colorscheme = "wal",
       -- colorscheme = "catppuccin-mocha",
     },
   },

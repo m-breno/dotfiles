@@ -25,7 +25,7 @@ font_family $terminal_font_name
 font_size $terminal_font_size
 _EOF_
 
-  kitten themes --reload-in=all "$kitty_theme"
+  #kitten themes --reload-in=all "$kitty_theme"
 }
 
 #nvim() {

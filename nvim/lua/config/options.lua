@@ -5,6 +5,8 @@
 vim.opt.wrap = true
 vim.opt.title = true
 
+vim.opt.termguicolors = false
+
 vim.g.lazyvim_python_lsp = "jedi_language_server"
 
 -- vim.g.autoformat = false
