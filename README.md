@@ -20,4 +20,4 @@ my arch(craft) bspwm dotfiles
   - [ ] ~rofi (not planned)~
 - [x] fix zsh `esc` strange behavior
 - [ ] / neovim auto switch theme
-- [ ] create separate wal theme (see wal branch)
+- [ ] / create separate wal theme (see wal branch)
