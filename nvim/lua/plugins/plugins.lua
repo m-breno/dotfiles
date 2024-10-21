@@ -1,11 +1,13 @@
 return {
   {
     "sainnhe/gruvbox-material",
-    opts = {
-      gruvbox_material_enable_italic = true,
-      gruvbox_material_background = "hard",
-      gruvbox_material_enable_bold = true,
-    },
+    config = function()
+      vim.g.gruvbox_material_enable_italic = 1
+      vim.g.gruvbox_material_background = "hard"
+      vim.g.gruvbox_material_enable_bold = true
+      vim.g.gruvbox_material_transparent_background = 1
+      vim.g.gruvbox_material_disable_italic_comment = 0
+    end,
   },
 
   {
