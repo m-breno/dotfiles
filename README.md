@@ -1,6 +1,8 @@
 # dotfiles
 
-my arch(craft) bspwm dotfiles
+My Arch Linux dotfiles
+
+you can choose between bspwm and hyprland dotfiles by changing branches
 
 ## TODO
 
@@ -19,5 +21,5 @@ my arch(craft) bspwm dotfiles
   - [x] general scripts (terminal... etc.)
   - [ ] ~rofi (not planned)~
 - [x] fix zsh `esc` strange behavior
-- [ ] / neovim auto switch theme
-- [ ] / create separate wal theme (see wal branch)
+- [x] neovim auto switch theme
+- [ ] / ~create separate wal theme (see wal branch)~
