@@ -5,3 +5,5 @@ bspwm/themes/*/ready
 kitty/current-theme.conf
 tmp/
 bkp/
+*/*.*tmp/
+*/*.*bkp/
