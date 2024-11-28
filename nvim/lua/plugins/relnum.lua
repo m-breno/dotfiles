@@ -1,3 +1,4 @@
 return {
-  "vim-scripts/RelOps",
+	"vim-scripts/RelOps",
+	event = "BufRead",
 }

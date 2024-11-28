@@ -31,7 +31,7 @@ return {
 							keymap = "SPC f",
 							key_hl = "Number",
 							key_format = " %s",
-              action = "Telescope find_files",
+							action = "Telescope find_files",
 						},
 						{
 							icon = "󰝒 ",
@@ -42,7 +42,7 @@ return {
 							keymap = "SPC f",
 							key_hl = "Number",
 							key_format = " %s",
-              action = "ene | startinsert",
+							action = "ene | startinsert",
 						},
 						{
 							icon = "󱎸 ",
@@ -53,7 +53,7 @@ return {
 							keymap = "SPC f",
 							key_hl = "Number",
 							key_format = " %s",
-              action = "Telescope live_grep",
+							action = "Telescope live_grep",
 						},
 						{
 							icon = "󰝖 ",
@@ -64,7 +64,18 @@ return {
 							keymap = "SPC f",
 							key_hl = "Number",
 							key_format = " %s",
-              action = "TodoTelescope",
+							action = "TodoTelescope",
+						},
+						{
+							icon = "󰛽 ",
+							icon_hl = "Title",
+							desc = "Open file tree       ",
+							desc_hl = "String",
+							key = "b",
+							keymap = "^",
+							key_hl = "Number",
+							key_format = " %s",
+							action = "Neotree reveal",
 						},
 						{
 							icon = "󰈆 ",
@@ -75,7 +86,7 @@ return {
 							keymap = ":",
 							key_hl = "Number",
 							key_format = " %s",
-              action = ":q",
+							action = ":q",
 						},
 					},
 					footer = function()

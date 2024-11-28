@@ -16,10 +16,10 @@ vim.keymap.set("x", "gp", '"+P', { desc = "Paste from system clipboard" })
 
 -- Reselect latest changed, put, or yanked text
 vim.keymap.set(
-  "n",
-  "gv",
-  '"`[" . strpart(getregtype(), 0, 1) . "`]"',
-  { expr = true, replace_keycodes = false, desc = "visually select changed text" }
+	"n",
+	"gv",
+	'"`[" . strpart(getregtype(), 0, 1) . "`]"',
+	{ expr = true, replace_keycodes = false, desc = "visually select changed text" }
 )
 
 -- search inside visually highlighted text. use `silent = false` for it to
@@ -52,32 +52,30 @@ vim.keymap.set("n", "<leader>w>", "<C-w>>", { desc = "Increase width" })
 vim.keymap.set("n", "<leader>w_", "<C-w>_", { desc = "Max out the height" })
 vim.keymap.set("n", "<leader>w|", "<C-w>|", { desc = "Max out the width" })
 
-
-
 -- Window resize (respecting `v:count`)
 vim.keymap.set(
-  "n",
-  "<C-Left>",
-  '"<Cmd>vertical resize -" . v:count1 . "<CR>"',
-  { expr = true, replace_keycodes = false, desc = "Decrease window width" }
+	"n",
+	"<C-Left>",
+	'"<Cmd>vertical resize -" . v:count1 . "<CR>"',
+	{ expr = true, replace_keycodes = false, desc = "Decrease window width" }
 )
 vim.keymap.set(
-  "n",
-  "<C-Down>",
-  '"<Cmd>resize -"          . v:count1 . "<CR>"',
-  { expr = true, replace_keycodes = false, desc = "Decrease window height" }
+	"n",
+	"<C-Down>",
+	'"<Cmd>resize -"          . v:count1 . "<CR>"',
+	{ expr = true, replace_keycodes = false, desc = "Decrease window height" }
 )
 vim.keymap.set(
-  "n",
-  "<C-Up>",
-  '"<Cmd>resize +"          . v:count1 . "<CR>"',
-  { expr = true, replace_keycodes = false, desc = "Increase window height" }
+	"n",
+	"<C-Up>",
+	'"<Cmd>resize +"          . v:count1 . "<CR>"',
+	{ expr = true, replace_keycodes = false, desc = "Increase window height" }
 )
 vim.keymap.set(
-  "n",
-  "<C-Right>",
-  '"<Cmd>vertical resize +" . v:count1 . "<CR>"',
-  { expr = true, replace_keycodes = false, desc = "Increase window width" }
+	"n",
+	"<C-Right>",
+	'"<Cmd>vertical resize +" . v:count1 . "<CR>"',
+	{ expr = true, replace_keycodes = false, desc = "Increase window width" }
 )
 
 -- Move only sideways in command mode. Using `silent = false` makes movements
