@@ -1,9 +1,5 @@
-# dotfiles
+# qtile
 
 My Arch Linux dotfiles
 
-you can choose between bspwm and hyprland dotfiles by changing branches
-
-## TODO
-
-- [ ] configure `mako`
+You can choose between dotfiles by changing branches
