@@ -2,4 +2,4 @@
 
 My Arch Linux dotfiles
 
-You can choose between dotfiles by changing branches
+You can choose between window-managers/compositors by changing branches
