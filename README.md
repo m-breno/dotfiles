@@ -2,7 +2,7 @@
 
 My Arch Linux dotfiles
 
-you can choose between bspwm and hyprland dotfiles by changing branches
+you can choose between window-managers/compositors by changing branches
 
 ## TODO
 
