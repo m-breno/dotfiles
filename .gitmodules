@@ -1,0 +1,21 @@
+[submodule "bspwm"]
+	path = bspwm
+	url = https://github.com/m-breno/dotfiles-bspwm
+[submodule "zsh"]
+	path = zsh
+	url = https://github.com/m-breno/dotfiles-zsh
+[submodule "foot"]
+	path = foot
+	url = https://github.com/m-breno/dotfiles-foot
+[submodule "hypr"]
+	path = hypr
+	url = https://github.com/m-breno/dotfiles-hypr
+[submodule "qtile"]
+	path = qtile
+	url = https://github.com/m-breno/dotfiles-qtile
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/m-breno/dotfiles-nvim
+[submodule "etc"]
+	path = etc
+	url = https://github.com/m-breno/dotfiles-etc
