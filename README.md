@@ -63,7 +63,7 @@ Feel free to make any suggestions in the Issues tab, or drop a PR!
 - [ ] hyprland: configure a bar (maybe AGS)
 - [ ] list dependencies
 - [ ] separate desktops in branches (now with submodules) but keep main
-- [ ] kitty: fix transparency not changing dinamically on theme change
+- [x] kitty: fix transparency not changing dinamically on theme change
 - [ ] hyprland: add more themes
 - [ ] bspwm: test/reconfigure
 - [ ] take screenshots
