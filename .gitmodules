@@ -19,3 +19,9 @@
 [submodule "etc"]
 	path = etc
 	url = https://github.com/m-breno/dotfiles-etc
+[submodule "dotfiles-kitty"]
+	path = dotfiles-kitty
+	url = https://github.com/m-breno/dotfiles-kitty
+[submodule "kitty"]
+	path = kitty
+	url = https://github.com/m-breno/dotfiles-kitty
